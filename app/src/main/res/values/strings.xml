@@ -14,4 +14,7 @@
     <string name="password_text">Password</string>
     <string name="wellcome_back">Wellcome Back</string>
     <string name="log_in">Log In!</string>
+    <string name="email_account">Email Account</string>
+    <string name="password_login">Password</string>
+    <string name="button_log_in">Log In</string>
 </resources>

@@ -12,12 +12,9 @@
         android:layout_height="280dp"
         android:background="@drawable/background_top"
         android:elevation="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,27 +25,90 @@
         android:text="@string/wellcome_back"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="468dp"
+        android:elevation="10dp"
         android:text="@string/log_in"
         android:textColor="@color/white"
         android:textSize="60sp"
         android:textStyle="bold"
-        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.193" />
+        app:layout_constraintVertical_bias="0.755">
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/email_account"
+            android:textColor="@color/primary_color"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/background_edittext_default"
+            android:inputType="textEmailAddress"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/password_login"
+            android:textColor="@color/primary_color"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/background_edittext_default"
+            android:drawableEnd="@drawable/icon_material_lock_outline"
+            android:inputType="textPassword"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:text="Forget password ?"
+            android:textColor="@color/primary_color"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            android:drawableStart="@drawable/icon_awesome_arrow_alt_circle_right"
+            android:drawablePadding="7dp"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/purpelgradient"
+            android:layout_gravity="center"
+            android:text="@string/button_log_in"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
