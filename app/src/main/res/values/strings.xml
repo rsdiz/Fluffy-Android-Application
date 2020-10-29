@@ -12,4 +12,6 @@
     <string name="username_text">Username</string>
     <string name="email_account_text">Email Account</string>
     <string name="password_text">Password</string>
+    <string name="wellcome_back">Wellcome Back</string>
+    <string name="log_in">Log In!</string>
 </resources>
