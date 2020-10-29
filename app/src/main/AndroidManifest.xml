@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fluffy">
         <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SignUpUiActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
