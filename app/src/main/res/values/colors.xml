@@ -10,4 +10,7 @@
     <color name="primary_color">#5638FF</color>
     <color name="secondary_color">#FF00FF</color>
     <color name="accent_color">@color/white</color>
+    <color name="purple">#6134FF</color>
+    <color name="outlinecolor">#5638FF</color>
+    <color name="blue">#0044FF</color>
 </resources>
