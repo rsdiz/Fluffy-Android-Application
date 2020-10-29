@@ -8,4 +8,8 @@
     <string name="mail">I\'ll use email or phone</string>
     <string name="already">Already have account?</string>
     <string name="login">Login</string>
+    <string name="hello_text">Hello</string>
+    <string name="username_text">Username</string>
+    <string name="email_account_text">Email Account</string>
+    <string name="password_text">Password</string>
 </resources>
