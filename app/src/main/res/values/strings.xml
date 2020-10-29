@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fluffy</string>
+    <string name="hello_text">Hello</string>
 </resources>

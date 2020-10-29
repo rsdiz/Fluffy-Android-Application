@@ -6,4 +6,108 @@
     android:layout_height="match_parent"
     tools:context=".SignupActivity">
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/background_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/hello_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up!"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:layout_marginStart="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hello" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textStyle="bold|italic"
+            android:textSize="15sp"
+            android:textColor="@color/primary_color"/>
+
+        <EditText
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/background_edittext_default"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:inputType="textAutoComplete" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Account"
+            android:textStyle="bold|italic"
+            android:textSize="15sp"
+            android:textColor="@color/primary_color"/>
+
+        <EditText
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/background_edittext_default"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="bold|italic"
+            android:textSize="15sp"
+            android:textColor="@color/primary_color"/>
+
+        <EditText
+            android:drawableEnd="@drawable/ic_lock_24"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/background_edittext_default"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
