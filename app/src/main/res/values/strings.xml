@@ -5,4 +5,7 @@
     <string name="signup">Sign Up</string>
     <string name="easy">It's easier to sign up now</string>
     <string name="con">Continue With Facebook</string>
+    <string name="mail">I'll use email or phone</string>
+    <string name="already">Already have account?</string>
+    <string name="login">Login</string>
 </resources>
