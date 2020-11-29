@@ -1,9 +1,9 @@
 package com.example.fluffy
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.fluffy.adapter.BurungAdapter
 import com.example.fluffy.adapter.ModelBurung
 
@@ -29,7 +29,7 @@ class activity_dashboard : AppCompatActivity() {
         //ACTION
         listView.setOnItemClickListener { parent, view, position, id ->
            var item=data[position]
-            intent=Intent(this, activity_detail::class.java)
+            intent = Intent(this, activity_detail_burung::class.java)
             intent.putExtra("gambar", item.gambar)
             intent.putExtra("nama", item.nama)
             intent.putExtra("keterangan", item.keterangan)
