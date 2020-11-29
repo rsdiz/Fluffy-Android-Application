@@ -5,18 +5,18 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-class SignupActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
+        setContentView(R.layout.activity_login)
 
         // Inisialisasi komponen dari layout
-        val buttonSignup = findViewById<Button>(R.id.buttonSignup)
+        val buttonLogin = findViewById<Button>(R.id.buttonLogin)
         /*
-        Aksi ketika button signup di klik,
+        Aksi ketika button login di klik,
         maka pindah activity ke Dashboard
         */
-        buttonSignup.setOnClickListener {
+        buttonLogin.setOnClickListener {
             val intentDashboard = Intent(this, DashboardActivity::class.java)
             startActivity(intentDashboard)
         }

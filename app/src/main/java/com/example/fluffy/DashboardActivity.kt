@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.fluffy.adapter.BurungAdapter
 import com.example.fluffy.adapter.ModelBurung
 
-class activity_dashboard : AppCompatActivity() {
+class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
@@ -28,8 +28,8 @@ class activity_dashboard : AppCompatActivity() {
 
         // ACTION
         listView.setOnItemClickListener { parent, view, position, id ->
-            var item = data[position]
-            intent = Intent(this, activity_detail_burung::class.java)
+            val item = data[position]
+            intent = Intent(this, DetailBurungActivity::class.java)
             intent.putExtra("gambar", item.gambar)
             intent.putExtra("nama", item.nama)
             intent.putExtra("keterangan", item.keterangan)

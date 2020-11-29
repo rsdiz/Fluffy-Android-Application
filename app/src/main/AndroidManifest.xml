@@ -10,18 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fluffy.NoActionBar">
         <activity
-            android:name=".activity_detail_burung"
+            android:name=".DetailBurungActivity"
             android:theme="@style/Theme.Fluffy"
-            android:parentActivityName=".activity_dashboard">
+            android:parentActivityName=".DashboardActivity">
         </activity>
         <activity android:name=".SignupActivity" />
-        <activity android:name=".SignUpUiActivity">
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".DashboardActivity" />
     </application>
 
 </manifest>

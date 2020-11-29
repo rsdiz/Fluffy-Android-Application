@@ -5,7 +5,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class activity_detail_burung : AppCompatActivity() {
+class DetailBurungActivity : AppCompatActivity() {
     private lateinit var gambarView: ImageView
     private lateinit var penjelasan: TextView
 
@@ -13,14 +13,13 @@ class activity_detail_burung : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_burung)
 
-        //INISIALISASI
+        // INISIALISASI
         gambarView = findViewById(R.id.image_bird)
         penjelasan = findViewById(R.id.description_bird)
 
-
-        //MENGUBAH KONTEN
+        // MENGUBAH KONTEN
         gambarView.setImageResource(intent.getIntExtra("gambar", R.drawable.icon_owl))
         penjelasan.text = intent.getStringExtra("keterangan")
-        actionBar?.title = intent.getStringExtra("nama")
+        supportActionBar?.title = intent.getStringExtra("nama")
     }
 }
