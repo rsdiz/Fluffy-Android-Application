@@ -11,7 +11,9 @@
         android:theme="@style/Theme.Fluffy.NoActionBar">
         <activity
             android:name=".activity_detail_burung"
-            android:theme="@style/Theme.Fluffy" />
+            android:theme="@style/Theme.Fluffy"
+            android:parentActivityName=".activity_dashboard">
+        </activity>
         <activity android:name=".SignupActivity" />
         <activity android:name=".SignUpUiActivity">
             <intent-filter>
