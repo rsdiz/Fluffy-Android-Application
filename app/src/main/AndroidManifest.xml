@@ -11,18 +11,17 @@
         android:theme="@style/Theme.Fluffy.NoActionBar">
         <activity
             android:name=".activity_detail_burung"
-            android:theme="@style/Theme.Fluffy"
-    </activity>
+            android:theme="@style/Theme.Fluffy" />
 
-    <activity android:name=".SignupActivity" />
-    <activity android:name=".SignUpUiActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".SignUpUiActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-    <activity android:name=".MainActivity"></activity>
-</application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+    </application>
 
 </manifest>
