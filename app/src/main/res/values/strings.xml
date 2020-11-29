@@ -1,20 +1,13 @@
 <resources>
-    <string name="app_name">Fluffy</string>
+    <string name="app_name">Fluffy</string>\
     <string name="fluffy">FLUFFY</string>
     <string name="myapp">MY APP</string>
     <string name="signup">Sign Up</string>
-    <string name="easy">It\'s easier to sign up now</string>
+    <string name="easy">It s easier to sign up now</string>
     <string name="con">Continue With Facebook</string>
-    <string name="mail">I\'ll use email or phone</string>
+    <string name="mail">I ll use email or phone</string>
     <string name="already">Already have account?</string>
     <string name="login">Login</string>
-    <string name="hello_text">Hello</string>
-    <string name="username_text">Username</string>
-    <string name="email_account_text">Email Account</string>
-    <string name="password_text">Password</string>
-    <string name="wellcome_back">Wellcome Back</string>
-    <string name="log_in">Log In!</string>
-    <string name="email_account">Email Account</string>
-    <string name="password_login">Password</string>
-    <string name="button_log_in">Log In</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="daftar_burung">Daftar Burung</string>
 </resources>
