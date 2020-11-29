@@ -10,4 +10,9 @@
     <string name="login">Login</string>
     <string name="dashboard">DASHBOARD</string>
     <string name="daftar_burung">Daftar Burung</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="log_in">Log In!</string>
+    <string name="email_account">Email Account</string>
+    <string name="password_login">Password</string>
+    <string name="button_log_in">Log In</string>
 </resources>

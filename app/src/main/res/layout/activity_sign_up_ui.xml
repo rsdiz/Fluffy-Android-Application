@@ -167,7 +167,7 @@
             android:layout_height="wrap_content"
             android:text="@string/login"
             android:paddingLeft="4dp"
-            android:textColor="@color/blue"
+            android:textColor="@color/blue" />
     </LinearLayout>
 
 
